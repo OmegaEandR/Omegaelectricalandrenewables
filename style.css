@@ -255,7 +255,10 @@ h1, h2, h3 {
 }
 
 .logo-image img {
-    width:170px;
+    width:210px;
+    height:auto;
+    object-fit:contain;
+}
 }
 
 .button {
