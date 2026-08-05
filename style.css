@@ -18,7 +18,7 @@ header {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px 10%;
+    padding:20px 6%;
     background:#0c0c0c;
 
 }
@@ -255,7 +255,7 @@ h1, h2, h3 {
 }
 
 .logo-image img {
-    width:200px;
+    width:260px;
     height:auto;
     object-fit:contain;
 }
