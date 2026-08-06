@@ -272,3 +272,38 @@ h1, h2, h3 {
 }
     
 }
+
+
+/* ===== Header ===== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #0c0c0c;
+}
+
+/* ===== Logo ===== */
+
+.logo-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-image img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ===== Navigation ===== */
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
