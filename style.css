@@ -678,3 +678,32 @@ p {
   }
 
 }
+
+/* ===== OMEGA LOGO SIZE OVERRIDE ===== */
+
+.brand img {
+    width: 520px;
+    max-width: 42vw;
+    max-height: 105px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 980px) {
+    .brand img {
+        width: 400px;
+        max-width: 65vw;
+        max-height: 90px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+    .brand img {
+        width: 320px;
+        max-width: 75vw;
+        max-height: 78px;
+    }
+}
+
